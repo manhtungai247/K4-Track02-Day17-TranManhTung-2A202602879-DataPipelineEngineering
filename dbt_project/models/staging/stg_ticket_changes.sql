@@ -7,7 +7,8 @@ with src as (
 )
 select
     coalesce(j->'value'->'after'->>'ticket_id',
-             j->'value'->'before'->>'ticket_id')                     as ticket_id,
+             j->'value'->'before'->>'ticket_id',
+             j->'key'->>'ticket_id')                                 as ticket_id,
     _op,
     (j->'value'->'source'->>'lsn')::bigint                           as _lsn,
     j->'value'->'after'->>'user_id'                                  as user_id,
