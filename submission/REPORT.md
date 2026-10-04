@@ -3,7 +3,7 @@
 **Họ tên / MSSV:** Trần Mạnh Tùng - 2A202602879
 **Repo:** https://github.com/manhtungai247/K4-Track02-Day17-TranManhTung-2A202602879-DataPipelineEngineering
 **Commit mã đã kiểm tra:** `b00f6904507a5a6f84f1488908c361dc7dc5520f`
-**AI đã dùng và phạm vi hỗ trợ:** OpenAI Codex hỗ trợ chẩn đoán, sửa code, cập nhật report và chạy kiểm chứng; tác giả đã review kết quả.
+**AI đã dùng và phạm vi hỗ trợ:** OpenAI Codex hỗ trợ tìm lỗi, đưa ra đề xuất sửa code.
 **Nguồn tham khảo khác:** README, docs và tests có sẵn trong repo.
 
 ## 1. Ba lỗi
